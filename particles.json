@@ -11,17 +11,20 @@
 
 <!-- Initialisierung -->
 <script>
+  // Hintergrundfarbe über CSS setzen
+  document.body.style.background = "linear-gradient(to bottom, #b3cfff, #d6c4ff)"; // hellblau-lila Verlauf
+
   particlesJS('particles-js', {
     "particles": {
       "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
-      "color": { "value": "#00ffc3" },
+      "color": { "value": "#ffffff" }, // Partikelfarbe weiß
       "shape": { "type": "circle" },
-      "opacity": { "value": 0.5 },
+      "opacity": { "value": 0.7 },
       "size": { "value": 3 },
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#00ffc3",
+        "color": "#ffffff",
         "opacity": 0.4,
         "width": 1
       },
